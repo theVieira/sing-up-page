@@ -1,0 +1,14 @@
+{
+  "name": "sing-up-page",
+  "version": "1.0.0",
+  "description": "Página de cadastro",
+  "main": "src index.js",
+  "author": "theVieira <gabrielvieiraguimaraes4@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "sass --watch src/styles/index.scss public/global.css"
+  },
+  "devDependencies": {
+    "sass": "^1.77.1"
+  }
+}

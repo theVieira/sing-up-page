@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: max-content;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 60px #000;
+}
+main header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main header .login-now {
+  cursor: pointer;
+  transition: 0.3s;
+}
+main header .login-now:hover {
+  color: #3f3f3f;
+}
+main form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+main form .input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+main form .input-form input {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #0a0a0a;
+}
+main form .check-terms {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+main form .login-btn {
+  color: #cecece;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  background-color: #000;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main form .login-btn:hover {
+  background-color: #292929;
+}
+main form .login-with-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #f1f1f1;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+main form .login-with-google img {
+  width: 2rem;
+}
+main form .login-with-google:hover {
+  filter: brightness(95%);
+}
+
+/*# sourceMappingURL=global.css.map */
